@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(imga/background.avif); */
+    background-color: rgb(18, 18, 18);
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: rgb(29, 8, 48);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: rgb(101, 25, 172);
+    font-size: 1.05rem;
+
+}
+
+main hr {
+    background: rgb(101, 25, 172);
+    height: 1.2px;
+    margin: 20px 64px;
+    border: 0;
+
+
+
+}
+
+.left {
+    font-size: 2rem;
+    font-family: 'Zilla Slab', serif;
+}
+
+.firstsection {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2rem;
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+}
+.leftsection .button{
+    padding: 20px;
+}
+.leftsection .btn {
+    
+    padding: 14px;
+    background-color: rgb(160, 98, 218);
+    border: 2px solid rgba(255, 255, 255, 0.975)smoke;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.rightsection {
+    width: 40%;
+
+}
+
+.rightsection img {
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 18px;
+
+
+}
+
+.secondsection {
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+}
+
+.purple {
+    color: rgb(101, 25, 172);
+}
+
+#element {
+    color: rgb(101, 25, 172);
+}
+
+.secondsection .text-gray {
+    color: grey;
+}
+
+.secondsection .horizontal-line {
+    background: white;
+    width: 84vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: aliceblue;
+    margin: 0 100px;
+    /* distance between each skill box
+     by inc the 2nd value u can have more space between skill box
+    */
+}
+
+.image-topper {
+    width: 30px;
+    position: relative;
+    top: -40px;
+    left: -12px;
+
+}
+
+.vertical-text {
+    position: relative;
+    top: 60px;
+    width: 150px;
+    left: -35px;
+}
+
+.vertical-desc {
+    position: relative;
+    color: dimgray;
+    top: 48px;
+    width: 150px;
+    font-size: 12.5px;
+
+    margin-top: 10px;
+    /* Add margin for spacing */
+    left: -35px;
+
+
+}
+
+footer {
+    background-color:rgb(29, 8, 48);
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+
+}
+
+footer ul a {
+    list-style: none;
+    color: rgb(207, 212, 212);
+    font: 10px;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-text-center {
+    text-align: center;
+    color: rgb(85, 83, 83);
+    padding: 12px 0;
+}
